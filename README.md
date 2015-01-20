@@ -6,6 +6,10 @@ Any member can post or link dump articles. Posts are eligable for frontpage disp
 
 Members can earn participation points based on wich rewards (payback from ad income, donations) are distributed. This is done using the MOBBR.COM payment system.
 
+All functionality will be contained in a single plugin.
+
+The first milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">Minimum Viable Product</a>
+
 ##Basic wordpress layout
 
 We are going to setup a multi-site wordpress installation in which each user automatically gets his own blog on his own subdomain. The posts across all blogs are aggregated into the main site, intro's only, where voting and commenting etc. takes place. The blogs can be multi-author. Members are shared across al subsites.
