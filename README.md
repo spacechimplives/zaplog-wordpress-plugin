@@ -43,21 +43,21 @@ Locate the menu item that reads “The Zaplog Collective Journalism plugin”
 Locate the menu item that reads “The Zaplog Collective Journalism plugin”
 4. Click on *Activate.*
 
-#Development
+##Development
 
-##Milestones
+###Milestones
 - The first milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">Minimum Viable Product</a>. 
 - The second milestone will be the event timeline or newsstream
 - The third milestone will be building a collaborative RSS/content aggregator.
 
-##Contributing and rewarding
-Anyone is invited to contribute.
+###Contributing and rewarding
+Everyone is invited to contribute. Everybody will be rewarded.
 
 This GITHUB will be funded using Mobbr. As soon as the milestones and issues are closed, are pledges are divided among all contributors based on their participation.
 
 Where possible we will use and integrate existing open-source plugins, if this is done using GITHUB repos, the original contributors will share in the rewards. 
 
-## Recommended Tools
+###Recommended Tools
 
 The WordPress Plugin Boilerplate uses a variable to store the text domain used when internationalizing strings throughout the Boilerplate. To take advantage of this method, there are tools that are recommended for providing correct, translatable files:
 
@@ -67,25 +67,7 @@ The WordPress Plugin Boilerplate uses a variable to store the text domain used w
 
 Any of the above tools should provide you with the proper tooling to internationalize the plugin.
 
-## License
-
-The zaplog plugin is licensed under the GPL v2 or later.
-
-> This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License, version 2, as published by the Free Software Foundation.
-
-> This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-> You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
-
-A copy of the license is included in the root of the plugin’s directory. The file is named `LICENSE`.
-
-## Licensing
-
-The WordPress Plugin Boilerplate is licensed under the GPL v2 or later; however, if you opt to use third-party code that is not compatible with v2, then you may need to switch to using code that is GPL v3 compatible.
-
-For reference, [here's a discussion](http://make.wordpress.org/themes/2013/03/04/licensing-note-apache-and-gpl/) that covers the Apache 2.0 License used by [Bootstrap](http://twitter.github.io/bootstrap/).
-
-## Includes
+### Includes
 
 Note that if you include your own classes, or third-party libraries, there are three locations in which said files may go:
 
@@ -93,7 +75,7 @@ Note that if you include your own classes, or third-party libraries, there are t
 * `zaplog-wordpress-plugin/admin` is for all dashboard-specific functionality
 * `zaplog-wordpress-plugin/public` is for all public-facing functionality
 
-## Assets
+### Assets
 
 The `assets` directory contains three files.
 
@@ -111,7 +93,25 @@ The Boilerplate offers support for `assets` and `trunk` as `branches` is somethi
 
 When committing code to the WordPress Plugin Repository, all of the banner, icon, and screenshot should be placed in the `assets` directory of the Repository, and the core code should be placed in the `trunk` directory.
 
-# Credits
+### License
+
+The zaplog plugin is licensed under the GPL v2 or later.
+
+> This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License, version 2, as published by the Free Software Foundation.
+
+> This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+> You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+A copy of the license is included in the root of the plugin’s directory. The file is named `LICENSE`.
+
+### Licensing
+
+The WordPress Plugin Boilerplate is licensed under the GPL v2 or later; however, if you opt to use third-party code that is not compatible with v2, then you may need to switch to using code that is GPL v3 compatible.
+
+For reference, [here's a discussion](http://make.wordpress.org/themes/2013/03/04/licensing-note-apache-and-gpl/) that covers the Apache 2.0 License used by [Bootstrap](http://twitter.github.io/bootstrap/).
+
+## Credits
 
 The WordPress Plugin Boilerplate was started in 2011 by [Tom McFarlin](http://twitter.com/tommcfarlin/) and has since included a number of great contributions.
 
