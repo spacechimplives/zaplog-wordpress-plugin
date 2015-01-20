@@ -16,6 +16,8 @@ We are going to setup a multi-site wordpress installation in which each user aut
 
 ##Development and rewarding
 
+Anyone is invited to participate.
+
 This GITHUB will be funded using Mobbr. As soon as the milestones and issues are closed, are pledges are divided among all contributors based on their participation.
 
 Where possible we will use and integrate existing open-source plugins, if this is done using GITHUB repos, the original contributors will share in the rewards. 
