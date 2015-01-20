@@ -13,3 +13,9 @@ The first milestone will be the <a href="https://github.com/patricksavalle/zaplo
 ##Basic wordpress layout
 
 We are going to setup a multi-site wordpress installation in which each user automatically gets his own blog on his own subdomain. The posts and discussion across all blogs are aggregated onto main pages. The blogs can be multi-author. Members are shared across al subsites.
+
+##Development and rewarding
+
+This GITHUB will be funded using Mobbr. As soon as the milestones and issues are closed, are pledges are divided among all contributors based on their participation.
+
+Where possible we will use and integrate existing open-source plugins, if this is done using GITHUB repos, the original contributors will share in the rewards. 
