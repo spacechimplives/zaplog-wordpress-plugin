@@ -21,3 +21,7 @@ Anyone is invited to participate.
 This GITHUB will be funded using Mobbr. As soon as the milestones and issues are closed, are pledges are divided among all contributors based on their participation.
 
 Where possible we will use and integrate existing open-source plugins, if this is done using GITHUB repos, the original contributors will share in the rewards. 
+
+Funding and rewards can be followed here:
+
+<a href="https://mobbr.com/#/task/aHR0cHM6Ly9naXRodWIuY29tL3BhdHJpY2tzYXZhbGxlL3phcGxvZy13b3JkcHJlc3MtcGx1Z2luL21pbGVzdG9uZXMvTWluaW11bSUyMHZpYWJsZSUyMHByb2R1Y3Q="><img src="https://api.mobbr.com/button/eb342f159522ccde16500ce9abc34391/medium"/></a>
