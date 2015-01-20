@@ -1,28 +1,18 @@
-#Overview
+#Zaplog Collaborative Journalism
 
-The zaplog plugin delivers functionality based on the succesful <a href="http://zaplog.nl">zaplog social news site</a>. The site was built in 2007. Its expressionengine 1.6 technology and design are outdated and need to be ported, upgraded to wordpress 4.1
-
-Any member can post or link dump articles. Posts are eligable for frontpage display based on an algorithm that adaptively weighs votes, comments, commenters, views, etc. 
-
-Members can earn participation points based on wich rewards (payback from ad income, donations) are distributed. This is done using the MOBBR.COM payment system.
-
-All functionality will be contained in a single plugin.
-
-The first milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">Minimum Viable Product</a>. The second milestone will be building a social RSS aggregator.
-
-##Development and rewarding
-
-Anyone is invited to contribute.
-
-This GITHUB will be funded using Mobbr. As soon as the milestones and issues are closed, are pledges are divided among all contributors based on their participation.
-
-Where possible we will use and integrate existing open-source plugins, if this is done using GITHUB repos, the original contributors will share in the rewards. 
-
-Funding and rewards can be followed here:
+Crowdfunding and rewarding can be followed here:
 
 <a href="https://mobbr.com/#/task/aHR0cHM6Ly9naXRodWIuY29tL3BhdHJpY2tzYXZhbGxlL3phcGxvZy13b3JkcHJlc3MtcGx1Z2luL21pbGVzdG9uZXMvTWluaW11bSUyMHZpYWJsZSUyMHByb2R1Y3Q="><img src="https://api.mobbr.com/button/eb342f159522ccde16500ce9abc34391/medium"/></a>
 
-##Basic wordpress setup
+##Overview
+
+The zaplog plugin delivers functionality based on the succesful <a href="http://zaplog.nl">zaplog social news site</a>. The site was built in 2007. Its expressionengine 1.6 technology and design are outdated and need to be ported, upgraded to wordpress 4.1
+
+Any member can post, edit, tag, vote and link articles. Articles are eligable for frontpage display based on an algorithm that adaptively weighs votes, comments, commenters, views, etc. 
+
+Members can earn participation points based on wich rewards (payback from ad income, donations) are distributed. This is done using the MOBBR.COM payment system.
+
+##Plugin wordpress setup
 
 We are going to setup a multi-site wordpress installation in which each user automatically gets his own blog on his own subdomain. The posts and discussion across all blogs are aggregated onto main pages. The blogs can be multi-author. Members are shared across al subsites.
 
@@ -36,15 +26,15 @@ Instead, the options are:
 
 1. Copy the `trunk` directory into your `wp-content/plugins` directory. You may wish to rename this to something else.
 2. In the WordPress dashboard, navigation to the *Plugins* page
-Locate the menu item that reads “The WordPress Plugin Boilerplate.”
+Locate the menu item that reads “The Zaplog Collective Journalism plugin.”
 3. Click on *Activate.*
 
 ### Creating a Symbolic Link
 
 #### On Linux or OS X
 
-1. Copy the `WordPress-Plugin-Boilerplate` directory into your `wp-content/plugins` directory.
-2. Create a symbolic link between the `trunk` directory and the plugin. For example: `ln -s plugin-name/trunk /path/to/wordpress/wp-content/plugins/plugin-name`
+1. Copy the `zaplog-wordpress-plugin` directory into your `wp-content/plugins` directory.
+2. Create a symbolic link between the `trunk` directory and the plugin. For example: `ln -s zaplog-wordpress-plugin/trunk /path/to/wordpress/wp-content/plugins/zaplog-wordpress-plugin`
 3. In the WordPress dashboard, navigation to the *Plugins* page
 Locate the menu item that reads “The WordPress Plugin Boilerplate.”
 4. Click on *Activate.*
@@ -57,9 +47,7 @@ Locate the menu item that reads “The WordPress Plugin Boilerplate.”
 Locate the menu item that reads “The WordPress Plugin Boilerplate.”
 4. Click on *Activate.*
 
-Note that this will activate the source code of the Boilerplate, but because the Boilerplate has no real functionality so no menu  items, meta boxes, or custom post types will be added.
-
-Examples are slated to be added to the [Boilerplate’s website](http://wppb.io) as the site continues to grow.
+#Development
 
 ## Recommended Tools
 
@@ -97,9 +85,9 @@ For reference, [here's a discussion](http://make.wordpress.org/themes/2013/03/04
 
 Note that if you include your own classes, or third-party libraries, there are three locations in which said files may go:
 
-* `zaplog/includes` is where functionality shared between the dashboard and the public-facing parts of the side reside
-* `zaplog/admin` is for all dashboard-specific functionality
-* `zaplog/public` is for all public-facing functionality
+* `zaplog-wordpress-plugin/includes` is where functionality shared between the dashboard and the public-facing parts of the side reside
+* `zaplog-wordpress-plugin/admin` is for all dashboard-specific functionality
+* `zaplog-wordpress-plugin/public` is for all public-facing functionality
 
 ### Assets
 
@@ -118,6 +106,20 @@ The WordPress Plugin Repository directory structure contains three directories:
 The Boilerplate offers support for `assets` and `trunk` as `branches` is something that isn’t often used and, when it is, is done so under advanced circumstances.
 
 When committing code to the WordPress Plugin Repository, all of the banner, icon, and screenshot should be placed in the `assets` directory of the Repository, and the core code should be placed in the `trunk` directory.
+
+#Development and rewarding
+
+##Milestones
+- The first milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">Minimum Viable Product</a>. 
+- The second milestone will be the event timeline or newsstream
+- The third milestone will be building a collaborative RSS/content aggregator.
+
+##Contributing
+Anyone is invited to contribute.
+
+This GITHUB will be funded using Mobbr. As soon as the milestones and issues are closed, are pledges are divided among all contributors based on their participation.
+
+Where possible we will use and integrate existing open-source plugins, if this is done using GITHUB repos, the original contributors will share in the rewards. 
 
 # Credits
 
