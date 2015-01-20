@@ -10,7 +10,7 @@ The zaplog plugin delivers functionality based on the succesful <a href="http://
 
 Any member can post, edit, tag, vote and link articles. Articles are eligable for frontpage display based on an algorithm that adaptively weighs votes, comments, commenters, views, etc. 
 
-Members can earn participation points based on wich rewards (payback from ad income, donations) are distributed. This is done using the MOBBR.COM payment system.
+Members can earn participation points based on which rewards (payback from ad income, donations) are shared. This is done using the HTTPS://MOBBR.COM payment system.
 
 ## Installation
 
@@ -47,8 +47,8 @@ Locate the menu item that reads “The Zaplog Collective Journalism plugin”
 
 ###Milestones
 - The first milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">Minimum Viable Product</a>. 
-- The second milestone will be the event timeline or newsstream
-- The third milestone will be building a collaborative RSS/content aggregator.
+- The second milestone will be the collaborative event timeline or newsstream
+- The third milestone will be the collaborative RSS/content aggregator.
 
 ###Contributing and rewarding
 Everyone is invited to contribute. Everybody will be rewarded.
@@ -59,7 +59,7 @@ Where possible we will use and integrate existing open-source plugins, if this i
 
 ###Recommended Tools
 
-The WordPress Plugin Boilerplate uses a variable to store the text domain used when internationalizing strings throughout the Boilerplate. To take advantage of this method, there are tools that are recommended for providing correct, translatable files:
+The plugin uses a variable to store the text domain used when internationalizing strings throughout the Boilerplate. To take advantage of this method, there are tools that are recommended for providing correct, translatable files:
 
 * [Poedit](http://www.poedit.net/)
 * [makepot](http://i18n.svn.wordpress.org/tools/trunk/)
@@ -83,19 +83,19 @@ The `assets` directory contains three files.
 2. `icon-256x256.png` is a used to represent the plugin’s icon image (which is new as of WordPress 4.0).
 3. `screenshot-1.png` is used to represent a single screenshot of the plugin that corresponds to the “Screenshots” heading in your plugin `README.txt`.
 
-The WordPress Plugin Repository directory structure contains three directories:
+The directory structure contains three directories:
 
 1. `assets`
 2. `branches`
 3. `trunk`
 
-The Boilerplate offers support for `assets` and `trunk` as `branches` is something that isn’t often used and, when it is, is done so under advanced circumstances.
+The plugin offers support for `assets` and `trunk` as `branches` is something that isn’t often used and, when it is, is done so under advanced circumstances.
 
-When committing code to the WordPress Plugin Repository, all of the banner, icon, and screenshot should be placed in the `assets` directory of the Repository, and the core code should be placed in the `trunk` directory.
+When committing code to the repository, all of the banner, icon, and screenshot should be placed in the `assets` directory of the repository, and the core code should be placed in the `trunk` directory.
 
 ### License
 
-The zaplog plugin is licensed under the GPL v2 or later.
+The plugin is licensed under the GPL v2 or later.
 
 > This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License, version 2, as published by the Free Software Foundation.
 
@@ -116,5 +116,3 @@ For reference, [here's a discussion](http://make.wordpress.org/themes/2013/03/04
 The WordPress Plugin Boilerplate was started in 2011 by [Tom McFarlin](http://twitter.com/tommcfarlin/) and has since included a number of great contributions.
 
 The current version of the Boilerplate was developed in conjunction with [Josh Eaton](https://twitter.com/jjeaton), [Ulrich Pogson](https://twitter.com/grapplerulrich), and [Brad Vincent](https://twitter.com/themergency).
-
-The homepage is based on a design as provided by [HTML5Up](http://html5up.net), the Boilerplate logo was designed by  Rob McCaskill of [BungaWeb](http://bungaweb.com), and the site `favicon` was created by [Mickey Kay](https://twitter.com/McGuive7).
