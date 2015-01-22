@@ -6,17 +6,17 @@ Crowdfunding and rewarding can be followed by clicking the button:
 
 The bitcoin address for funding this project is <b>1ASgxwsQAaJm2aP3rprAq8CuUVcJGWqkah</b>
 
-Goto http://bitonic.nl to pay EURO directly into this bitcoin address (iDeal, mrCash).
+To pay EUR into this bitcoin address (using iDeal, mrCash), goto http://bitonic.nl  
 
 ##Overview
 
 The zaplog plugin delivers functionality based on the succesful <a href="http://zaplog.nl">zaplog social news site</a>. The site was built in 2007. Its expressionengine 1.6 technology and design are outdated and need to be ported, upgraded to wordpress 4.1
 
-Any members can contribute by posting, editing, tagging, voting, linking and commenting articles. 
+Members can contribute by posting, editing, tagging, voting, linking and commenting articles. 
 
 Articles are selected for frontpage display by an algorithm that adaptively weighs votes, comments, commenters, views, referers etc. 
 
-All contributors automatically share in the earnings (payback from ad income, donations), proportionally to their contributions. This is done using the HTTPS://MOBBR.COM payment system. 
+All contributors automatically share in the earnings (ad income, donations, sponsoring), proportionally to their contributions. This is done using the HTTPS://MOBBR.COM payment system. 
 
 ## Installation
 
@@ -40,17 +40,16 @@ Locate the menu item that reads “The Zaplog Collective Journalism plugin”
 
 ##Development
 
+Everyone is invited to contribute. The crowdfunded amount will be divided among all contributors proportional to their contributions using HTPPS://MOBBR.COM (as soon as the milestones and issues are closed).
+
 ###Milestones
 - The first milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">Minimum Viable Product</a>. 
 - The second milestone will be the collaborative event timeline or newsstream
 - The third milestone will be the collaborative RSS/content aggregator.
 
-###Contributing and rewarding
-Everyone is invited to contribute. Everybody will be rewarded.
+###Re-use
 
-This GITHUB will be funded using Mobbr. As soon as the milestones and issues are closed, are pledges are divided among all contributors based on their participation.
-
-Where possible we will use and integrate existing open-source plugins, if this is done using GITHUB repos, the original contributors will share in the rewards. 
+Where possible use and integrate existing open-source plugins, if this is done using GITHUB repos, the original contributors will share in the rewards.
 
 ###Recommended Tools
 
@@ -99,12 +98,6 @@ The plugin is licensed under the GPL v2 or later.
 > You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
 A copy of the license is included in the root of the plugin’s directory. The file is named `LICENSE`.
-
-### Licensing
-
-The Zaplog plugin is licensed under the GPL v2 or later; however, if you opt to use third-party code that is not compatible with v2, then you may need to switch to using code that is GPL v3 compatible.
-
-For reference, [here's a discussion](http://make.wordpress.org/themes/2013/03/04/licensing-note-apache-and-gpl/) that covers the Apache 2.0 License used by [Bootstrap](http://twitter.github.io/bootstrap/).
 
 ## Credits
 
