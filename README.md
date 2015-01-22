@@ -4,32 +4,23 @@ Crowdfunding and rewarding can be followed by clicking the button:
 
 <a href="https://mobbr.com/#/task/aHR0cHM6Ly9naXRodWIuY29tL3BhdHJpY2tzYXZhbGxlL3phcGxvZy13b3JkcHJlc3MtcGx1Z2luL21pbGVzdG9uZXMvTWluaW11bSUyMHZpYWJsZSUyMHByb2R1Y3Q="><img src="https://api.mobbr.com/button/eb342f159522ccde16500ce9abc34391/medium"/></a>
 
-The bitcoin address for funding this project is <a href="bitcoin:1ASgxwsQAaJm2aP3rprAq8CuUVcJGWqkah">1ASgxwsQAaJm2aP3rprAq8CuUVcJGWqkah</a>
+The bitcoin address for funding this project is <b>1ASgxwsQAaJm2aP3rprAq8CuUVcJGWqkah</b>
 
-Goto http://bitcoin.nl to pay EURO directly into this bitcoin address (iDeal, mrCash).
+Goto http://bitonic.nl to pay EURO directly into this bitcoin address (iDeal, mrCash).
 
 ##Overview
 
 The zaplog plugin delivers functionality based on the succesful <a href="http://zaplog.nl">zaplog social news site</a>. The site was built in 2007. Its expressionengine 1.6 technology and design are outdated and need to be ported, upgraded to wordpress 4.1
 
-Any member can post, edit, tag, vote and link articles. Articles are eligable for frontpage display based on an algorithm that adaptively weighs votes, comments, commenters, views, etc. 
+Any members can contribute by posting, editing, tagging, voting, linking and commenting articles. 
 
-Members can earn participation points based on which rewards (payback from ad income, donations) are shared. This is done using the HTTPS://MOBBR.COM payment system.
+Articles are selected for frontpage display by an algorithm that adaptively weighs votes, comments, commenters, views, referers etc. 
+
+All contributors automatically share in the earnings (payback from ad income, donations), proportionally to their contributions. This is done using the HTTPS://MOBBR.COM payment system. 
 
 ## Installation
 
-This plugin is based on the <a href="https://tommcfarlin.com/wordpress-plugin-boilerplate/">Tom McFarlin boilerplate</a>. The Boilerplate can be installed in one of two ways both of which are documented below. Note that because of its directory structure, the Boilerplate cannot be installed “as-is.”
-
-Instead, the options are:
-
-### Copying a Directory
-
-1. Copy the `trunk` directory into your `wp-content/plugins` directory. You may wish to rename this to something else.
-2. In the WordPress dashboard, navigation to the *Plugins* page
-Locate the menu item that reads “The Zaplog Collective Journalism plugin”.
-3. Click on *Activate.*
-
-### Creating a Symbolic Link
+This plugin is based on the <a href="https://tommcfarlin.com/wordpress-plugin-boilerplate/">Tom McFarlin boilerplate</a>. 
 
 #### On Linux or OS X
 
@@ -42,7 +33,7 @@ Locate the menu item that reads “The Zaplog Collective Journalism plugin”
 #### On Windows
 
 1. Copy the `zaplog-wordpress-plugin` directory into your `wp-content/plugins` directory.
-2. Create a symbolic link between the `trunk` directory and the plugin. For example: `mklink /J path\to\wp-content\plugins \path\to\zaplog-wordpress-plugin\trunk\zaplog-wordpress-plugin`
+2. Create a symbolic link between the `trunk` directory and the plugin. For example: `mklink /J path\to\wp-content\plugins \path\to\plugin\trunk\zaplog-wordpress-plugin`
 3. In the WordPress dashboard, navigation to the *Plugins* page
 Locate the menu item that reads “The Zaplog Collective Journalism plugin”
 4. Click on *Activate.*
