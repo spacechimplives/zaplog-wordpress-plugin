@@ -42,6 +42,8 @@ See https://tommcfarlin.com/wordpress-plugin-boilerplate/ for more options.
 
 Everyone is invited to contribute. The crowdfunded amount will be divided among all contributors proportional to their contributions using HTTPS://MOBBR.COM (as soon as the milestones and issues are closed).
 
+<b>By contributing you accept that rewards are divided by an algorithm that might or might not be completelt 'fair'.</b>
+
 Please announce your activities and progress in the comments of the issues.
 
 ###Milestones
