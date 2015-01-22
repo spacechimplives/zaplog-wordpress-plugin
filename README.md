@@ -1,8 +1,12 @@
 #Zaplog Collaborative Journalism
 
-Crowdfunding and rewarding can be followed here:
+Crowdfunding and rewarding can be followed by clicking the button:
 
 <a href="https://mobbr.com/#/task/aHR0cHM6Ly9naXRodWIuY29tL3BhdHJpY2tzYXZhbGxlL3phcGxvZy13b3JkcHJlc3MtcGx1Z2luL21pbGVzdG9uZXMvTWluaW11bSUyMHZpYWJsZSUyMHByb2R1Y3Q="><img src="https://api.mobbr.com/button/eb342f159522ccde16500ce9abc34391/medium"/></a>
+
+The bitcoin address for funding this project is <a href="bitcoin:1ASgxwsQAaJm2aP3rprAq8CuUVcJGWqkah">1ASgxwsQAaJm2aP3rprAq8CuUVcJGWqkah</a>
+
+Goto http://bitcoin.nl to pay EURO directly into this bitcoin address (iDeal, mrCash).
 
 ##Overview
 
