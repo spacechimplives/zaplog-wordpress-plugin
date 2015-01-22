@@ -10,13 +10,13 @@ To pay EUR into this bitcoin address, goto http://bitonic.nl
 
 ##Overview
 
-The zaplog plugin delivers functionality based on the succesful <a href="http://zaplog.nl">zaplog social news site</a>. The site was built in 2007. Its expressionengine 1.6 technology and design are outdated and need to be ported, upgraded to wordpress 4.1
+> The zaplog plugin delivers functionality based on the succesful <a href="http://zaplog.nl">zaplog social news site</a>. The site was built in 2007. Its expressionengine 1.6 technology and design are outdated and need to be ported, upgraded to wordpress 4.1
 
-Members can contribute by posting, editing, tagging, voting, linking and commenting articles. 
+> Members can contribute by posting, editing, tagging, voting, linking and commenting articles. 
 
-All contributors automatically share in the earnings (ad income, donations, sponsoring), proportionally to their contributions. This is done using the HTTPS://MOBBR.COM payment system. 
+> All contributors automatically share in the earnings (ad income, donations, sponsoring), proportionally to their contributions. This is done using the HTTPS://MOBBR.COM payment system. 
 
-Articles are selected for frontpage display by an algorithm that adaptively weighs votes, comments, commenters, views, referers etc.
+> Articles are selected for frontpage display by an algorithm that adaptively weighs votes, comments, commenters, views, referers etc.
 
 ## Installation
 
@@ -42,14 +42,17 @@ See https://tommcfarlin.com/wordpress-plugin-boilerplate/ for more options.
 
 Everyone is invited to contribute. The crowdfunded amount will be divided among all contributors proportional to their contributions using HTTPS://MOBBR.COM (as soon as the milestones and issues are closed).
 
+Please announce your activities and progress in the comments of the issues.
+
 ###Milestones
+
 - The first milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">Minimum Viable Product</a>. 
 - The second milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Event%20timelines">collaborative event timeline or newsstream</a>
 - The third milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/RSS%20aggregator">collaborative RSS/content aggregator</a>.
 
 ###Re-use
 
-Where possible use and integrate existing open-source plugins, if this is done using GITHUB repos, the original contributors will share in the rewards.
+Where possible use and integrate existing open-source code, if this is done using GITHUB repos, the original contributors will share in the rewards.
 
 ###Recommended Tools
 
@@ -61,7 +64,7 @@ The plugin uses a variable to store the text domain used when internationalizing
 
 ### Includes
 
-Note that if you include your own classes, or third-party libraries, there are three locations in which said files may go:
+Note that if you include your own classes, or third-party libraries, there are three locations in which files may go:
 
 * `zaplog-wordpress-plugin/includes` is where functionality shared between the dashboard and the public-facing parts of the side reside
 * `zaplog-wordpress-plugin/admin` is for all dashboard-specific functionality
@@ -84,7 +87,7 @@ When committing code to the repository, all of the banner, icon, and screenshot 
 
 ### License
 
-The plugin is licensed under the GPL v2 or later. A copy of the license is included in the root of the plugin’s directory. The file is named `LICENSE`.
+The plugin is licensed under the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/blob/master/zaplog/trunk/LICENSE.txt">GPL v2 or later</a>.
 
 ## Credits
 
