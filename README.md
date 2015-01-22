@@ -6,21 +6,19 @@ Crowdfunding and rewarding can be followed by clicking the button:
 
 The bitcoin address for funding this project is <b>1ASgxwsQAaJm2aP3rprAq8CuUVcJGWqkah</b>
 
-To pay EUR into this bitcoin address (using iDeal, mrCash), goto http://bitonic.nl  
+To pay EUR into this bitcoin address, goto http://bitonic.nl  
 
 ##Overview
 
 The zaplog plugin delivers functionality based on the succesful <a href="http://zaplog.nl">zaplog social news site</a>. The site was built in 2007. Its expressionengine 1.6 technology and design are outdated and need to be ported, upgraded to wordpress 4.1
 
-Members can contribute by posting, editing, tagging, voting, linking and commenting articles. 
-
 Articles are selected for frontpage display by an algorithm that adaptively weighs votes, comments, commenters, views, referers etc. 
+
+Members can contribute by posting, editing, tagging, voting, linking and commenting articles. 
 
 All contributors automatically share in the earnings (ad income, donations, sponsoring), proportionally to their contributions. This is done using the HTTPS://MOBBR.COM payment system. 
 
 ## Installation
-
-This plugin is based on the <a href="https://tommcfarlin.com/wordpress-plugin-boilerplate/">Tom McFarlin boilerplate</a>. 
 
 #### On Linux or OS X
 
@@ -38,6 +36,8 @@ Locate the menu item that reads “The Zaplog Collective Journalism plugin”
 Locate the menu item that reads “The Zaplog Collective Journalism plugin”
 4. Click on *Activate.*
 
+See https://tommcfarlin.com/wordpress-plugin-boilerplate/ for more options. 
+
 ##Development
 
 Everyone is invited to contribute. The crowdfunded amount will be divided among all contributors proportional to their contributions using HTPPS://MOBBR.COM (as soon as the milestones and issues are closed).
@@ -53,13 +53,11 @@ Where possible use and integrate existing open-source plugins, if this is done u
 
 ###Recommended Tools
 
-The plugin uses a variable to store the text domain used when internationalizing strings throughout the Boilerplate. To take advantage of this method, there are tools that are recommended for providing correct, translatable files:
+The plugin uses a variable to store the text domain used when internationalizing strings. To take advantage of this method, there are tools that are recommended for providing correct, translatable files:
 
 * [Poedit](http://www.poedit.net/)
 * [makepot](http://i18n.svn.wordpress.org/tools/trunk/)
 * [i18n](https://github.com/grappler/i18n)
-
-Any of the above tools should provide you with the proper tooling to internationalize the plugin.
 
 ### Includes
 
@@ -80,24 +78,13 @@ The `assets` directory contains three files.
 The directory structure contains three directories:
 
 1. `assets`
-2. `branches`
-3. `trunk`
-
-The plugin offers support for `assets` and `trunk` as `branches` is something that isn’t often used and, when it is, is done so under advanced circumstances.
+2. `trunk`
 
 When committing code to the repository, all of the banner, icon, and screenshot should be placed in the `assets` directory of the repository, and the core code should be placed in the `trunk` directory.
 
 ### License
 
-The plugin is licensed under the GPL v2 or later.
-
-> This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License, version 2, as published by the Free Software Foundation.
-
-> This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-> You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
-
-A copy of the license is included in the root of the plugin’s directory. The file is named `LICENSE`.
+The plugin is licensed under the GPL v2 or later. A copy of the license is included in the root of the plugin’s directory. The file is named `LICENSE`.
 
 ## Credits
 
