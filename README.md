@@ -12,11 +12,11 @@ To pay EUR into this bitcoin address, goto http://bitonic.nl
 
 The zaplog plugin delivers functionality based on the succesful <a href="http://zaplog.nl">zaplog social news site</a>. The site was built in 2007. Its expressionengine 1.6 technology and design are outdated and need to be ported, upgraded to wordpress 4.1
 
-Articles are selected for frontpage display by an algorithm that adaptively weighs votes, comments, commenters, views, referers etc. 
-
 Members can contribute by posting, editing, tagging, voting, linking and commenting articles. 
 
 All contributors automatically share in the earnings (ad income, donations, sponsoring), proportionally to their contributions. This is done using the HTTPS://MOBBR.COM payment system. 
+
+Articles are selected for frontpage display by an algorithm that adaptively weighs votes, comments, commenters, views, referers etc.
 
 ## Installation
 
@@ -40,12 +40,12 @@ See https://tommcfarlin.com/wordpress-plugin-boilerplate/ for more options.
 
 ##Development
 
-Everyone is invited to contribute. The crowdfunded amount will be divided among all contributors proportional to their contributions using HTPPS://MOBBR.COM (as soon as the milestones and issues are closed).
+Everyone is invited to contribute. The crowdfunded amount will be divided among all contributors proportional to their contributions using HTTPS://MOBBR.COM (as soon as the milestones and issues are closed).
 
 ###Milestones
 - The first milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">Minimum Viable Product</a>. 
-- The second milestone will be the collaborative event timeline or newsstream
-- The third milestone will be the collaborative RSS/content aggregator.
+- The second milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Event%20timelines">collaborative event timeline or newsstream</a>
+- The third milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/RSS%20aggregator">collaborative RSS/content aggregator</a>.
 
 ###Re-use
 
