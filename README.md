@@ -16,12 +16,12 @@ Funding and rewarding can be followed by clicking the button.
 
 > Articles are selected for frontpage display by an algorithm that adaptively weighs votes, comments, commenters, views, referers etc.
 
-> Modern news reporting doesn't fit a blog format, Zaplog introduces the news stream or collaborative event timeline for this.
+> **Modern news reporting doesn't fit a standard blog format, Zaplog introduces the revolutionary news stream or event timeline for this.**
 
 ###Milestones
 
 - The first milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">Minimum Viable Product</a>. 
-- The second milestone will be the revolutionary <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Event%20timelines">collaborative event timeline</a> or newsstream.
+- The second milestone will be the revolutionary <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Event%20timelines">event timeline</a> or newsstream.
 - The third milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/RSS%20aggregator">collaborative content aggregator</a>.
 
 ##Development
