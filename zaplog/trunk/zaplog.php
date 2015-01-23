@@ -13,9 +13,9 @@
  * @package           zaplog
  *
  * @wordpress-plugin
- * Plugin Name:       Zaplog Collaborative Journalism
+ * Plugin Name:       Zaplog Open Source Journalism
  * Plugin URI:        https://github.com/patricksavalle/zaplog-wordpress-plugin
- * Description:       Turns Wordpress into a collaborative journalism platform
+ * Description:       Turns Wordpress into a open source journalism platform
  * Version:           1.0.0
  * Author:            patricksavalle.com
  * Author URI:        http://patricksavalle.com
