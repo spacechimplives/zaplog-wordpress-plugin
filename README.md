@@ -1,42 +1,28 @@
 #Zaplog Collaborative Journalism
 
-Crowdfunding and rewarding can be followed by clicking the button:
-
 <a href="https://mobbr.com/#/task/aHR0cHM6Ly9naXRodWIuY29tL3BhdHJpY2tzYXZhbGxlL3phcGxvZy13b3JkcHJlc3MtcGx1Z2luL21pbGVzdG9uZXMvTWluaW11bSUyMHZpYWJsZSUyMHByb2R1Y3Q="><img src="https://api.mobbr.com/button/eb342f159522ccde16500ce9abc34391/medium"/></a>
 
-The bitcoin address for funding this project is <b>1ASgxwsQAaJm2aP3rprAq8CuUVcJGWqkah</b>
+The bitcoin address for funding this project is <b>1ASgxwsQAaJm2aP3rprAq8CuUVcJGWqkah</b>. To pay EUR into this bitcoin address, goto http://bitonic.nl  
 
-To pay EUR into this bitcoin address, goto http://bitonic.nl  
+Funding and rewarding can be followed by clicking the button.
 
 ##Overview
 
-> The zaplog plugin delivers functionality based on the succesful <a href="http://zaplog.nl">zaplog social news site</a>. The site was built in 2007. Its expressionengine 1.6 technology and design are outdated and need to be ported, upgraded to wordpress 4.1
+> The Zaplog plugin delivers functionality based on the succesful <a href="http://zaplog.nl">zaplog social news site</a>. The site was built in 2007. Its expressionengine 1.6 technology and design are outdated and need to be ported, upgraded to wordpress 4.1
 
-> Members can contribute by posting, editing, tagging, voting, linking and commenting articles. 
+> All members can contribute by posting, editing, tagging, voting, linking and commenting articles. 
 
 > All contributors automatically share in the earnings (ad income, donations, sponsoring), proportionally to their contributions. This is done using the HTTPS://MOBBR.COM payment system. 
 
 > Articles are selected for frontpage display by an algorithm that adaptively weighs votes, comments, commenters, views, referers etc.
 
-## Installation
+> Modern news reporting doesn't fit a blog format, Zaplog introduces the news stream or collaborative event timeline for this.
 
-#### On Linux or OS X
+###Milestones
 
-1. Copy the `zaplog-wordpress-plugin` directory into your `wp-content/plugins` directory.
-2. Create a symbolic link between the `trunk` directory and the plugin. For example: `ln -s zaplog-wordpress-plugin/trunk /path/to/wordpress/wp-content/plugins/zaplog-wordpress-plugin`
-3. In the WordPress dashboard, navigation to the *Plugins* page
-Locate the menu item that reads “The Zaplog Collective Journalism plugin”
-4. Click on *Activate.*
-
-#### On Windows
-
-1. Copy the `zaplog-wordpress-plugin` directory into your `wp-content/plugins` directory.
-2. Create a symbolic link between the `trunk` directory and the plugin. For example: `mklink /J path\to\wp-content\plugins \path\to\plugin\trunk\zaplog-wordpress-plugin`
-3. In the WordPress dashboard, navigation to the *Plugins* page
-Locate the menu item that reads “The Zaplog Collective Journalism plugin”
-4. Click on *Activate.*
-
-See https://tommcfarlin.com/wordpress-plugin-boilerplate/ for more options. 
+- The first milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">Minimum Viable Product</a>. 
+- The second milestone will be the revolutionary <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Event%20timelines">collaborative event timeline</a> or newsstream.
+- The third milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/RSS%20aggregator">collaborative content aggregator</a>.
 
 ##Development
 
@@ -45,12 +31,6 @@ Everyone is invited to contribute. The crowdfunded amount will be divided among 
 <b>By contributing you accept that rewards are divided by an algorithm that might or might not be completelt 'fair'.</b>
 
 Please announce your activities and progress in the comments of the issues.
-
-###Milestones
-
-- The first milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">Minimum Viable Product</a>. 
-- The second milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Event%20timelines">collaborative event timeline or newsstream</a>
-- The third milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/RSS%20aggregator">collaborative RSS/content aggregator</a>.
 
 ###Re-use
 
@@ -90,6 +70,26 @@ When committing code to the repository, all of the banner, icon, and screenshot 
 ### License
 
 The plugin is licensed under the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/blob/master/zaplog/trunk/LICENSE.txt">GPL v2 or later</a>.
+
+## Installation
+
+### On Linux or OS X
+
+1. Copy the `zaplog-wordpress-plugin` directory into your `wp-content/plugins` directory.
+2. Create a symbolic link between the `trunk` directory and the plugin. For example: `ln -s zaplog-wordpress-plugin/trunk /path/to/wordpress/wp-content/plugins/zaplog-wordpress-plugin`
+3. In the WordPress dashboard, navigation to the *Plugins* page
+Locate the menu item that reads “The Zaplog Collective Journalism plugin”
+4. Click on *Activate.*
+
+### On Windows
+
+1. Copy the `zaplog-wordpress-plugin` directory into your `wp-content/plugins` directory.
+2. Create a symbolic link between the `trunk` directory and the plugin. For example: `mklink /J path\to\wp-content\plugins \path\to\plugin\trunk\zaplog-wordpress-plugin`
+3. In the WordPress dashboard, navigation to the *Plugins* page
+Locate the menu item that reads “The Zaplog Collective Journalism plugin”
+4. Click on *Activate.*
+
+See https://tommcfarlin.com/wordpress-plugin-boilerplate/ for more options. 
 
 ## Credits
 
