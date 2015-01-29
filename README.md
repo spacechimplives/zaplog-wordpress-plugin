@@ -20,21 +20,21 @@ Funding and rewarding can be followed by clicking the button.
 
 ###Milestones
 
-- The first milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">Minimum Viable Product</a>. 
+- The first milestone will be the MVP or <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">minimum viable product</a>. 
 - The second milestone will be the revolutionary <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Event%20timelines">event timeline</a> or newsstream.
 - The third milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/RSS%20aggregator">collaborative content aggregator</a>.
 
-##Development
+##Development and contributions
 
 Everyone is invited to contribute. The crowdfunded amount will be divided among all contributors proportional to their contributions using HTTPS://MOBBR.COM (as soon as the milestones and issues are closed).
 
-<b>By contributing you accept that rewards are divided by an algorithm that might or might not be completelt 'fair'.</b>
+<b>By contributing you accept that rewards are divided by an algorithm that might or might not be completely 'fair'.</b>
 
 Please announce your activities and progress in the comments of the issues.
 
 ###Re-use
 
-Where possible use and integrate existing open-source code, if this is done using GITHUB repos, the original contributors will share in the rewards.
+Where possible use and integrate existing open-source code (check license!), if this is done using GITHUB repos, the original contributors will share in the rewards.
 
 ###Recommended Tools
 
