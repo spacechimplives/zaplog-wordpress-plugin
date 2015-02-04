@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Zaplog open-source journalistiek by patricksavalle</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Zaplog open-source journalistiek</h1>
+        <h2>Nieuws door ons, omdat zij het niet kunnen</h2>
+        <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="zaplog-open-source-journalism" class="anchor" href="#zaplog-open-source-journalism" aria-hidden="true"><span class="octicon octicon-link"></span></a>Zaplog Open Source Journalism</h1>
+
+<p><a href="https://mobbr.com/#/task/aHR0cHM6Ly9naXRodWIuY29tL3BhdHJpY2tzYXZhbGxlL3phcGxvZy13b3JkcHJlc3MtcGx1Z2luL21pbGVzdG9uZXMvTWluaW11bSUyMHZpYWJsZSUyMHByb2R1Y3Q="><img src="https://api.mobbr.com/button/eb342f159522ccde16500ce9abc34391/medium"></a></p>
+
+<p>The bitcoin address for funding this project is <b>1ASgxwsQAaJm2aP3rprAq8CuUVcJGWqkah</b>. To pay EUR into this bitcoin address, goto <a href="http://bitonic.nl">http://bitonic.nl</a>  </p>
+
+<p>Funding and rewarding can be followed by clicking the button.</p>
+
+<h2>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h2>
+
+<blockquote>
+<p>The Zaplog plugin delivers functionality based on the succesful <a href="http://zaplog.nl">zaplog social news site</a>. The site was built in 2007. Its expressionengine 1.6 technology and design are outdated and need to be ported, upgraded to wordpress 4.1</p>
+
+<p>All members can contribute by posting, editing, tagging, voting, linking and commenting articles. </p>
+
+<p>All contributors automatically share in the earnings (ad income, donations, sponsoring), proportionally to their contributions. This is done using the <a href="HTTPS://MOBBR.COM">HTTPS://MOBBR.COM</a> payment system. </p>
+
+<p>Articles are selected for frontpage display by an algorithm that adaptively weighs votes, comments, commenters, views, referers etc.</p>
+
+<p><strong>Modern news reporting doesn't fit a standard blog format, Zaplog introduces the revolutionary news stream or event timeline for this.</strong></p>
+</blockquote>
+
+<h3>
+<a id="milestones" class="anchor" href="#milestones" aria-hidden="true"><span class="octicon octicon-link"></span></a>Milestones</h3>
+
+<ul>
+<li>The first milestone will be the MVP or <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">minimum viable product</a>. </li>
+<li>The second milestone will be the revolutionary <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Event%20timelines">event timeline</a> or newsstream.</li>
+<li>The third milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/RSS%20aggregator">collaborative content aggregator</a>.</li>
+</ul>
+
+<h2>
+<a id="development-and-contributions" class="anchor" href="#development-and-contributions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Development and contributions</h2>
+
+<p>Everyone is invited to contribute. The crowdfunded amount will be divided among all contributors proportional to their contributions using <a href="HTTPS://MOBBR.COM">HTTPS://MOBBR.COM</a> (as soon as the milestones and issues are closed).</p>
+
+<p><b>By contributing you accept that rewards are divided by an algorithm that might or might not be completely 'fair'.</b></p>
+
+<p>Please announce your activities and progress in the comments of the issues.</p>
+
+<h3>
+<a id="re-use" class="anchor" href="#re-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>Re-use</h3>
+
+<p>Where possible use and integrate existing open-source code (check license!), if this is done using GITHUB repos, the original contributors will share in the rewards.</p>
+
+<h3>
+<a id="recommended-tools" class="anchor" href="#recommended-tools" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recommended Tools</h3>
+
+<p>The plugin uses a variable to store the text domain used when internationalizing strings. To take advantage of this method, there are tools that are recommended for providing correct, translatable files:</p>
+
+<ul>
+<li><a href="http://www.poedit.net/">Poedit</a></li>
+<li><a href="http://i18n.svn.wordpress.org/tools/trunk/">makepot</a></li>
+<li><a href="https://github.com/grappler/i18n">i18n</a></li>
+</ul>
+
+<h3>
+<a id="includes" class="anchor" href="#includes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Includes</h3>
+
+<p>Note that if you include your own classes, or third-party libraries, there are three locations in which files may go:</p>
+
+<ul>
+<li>
+<code>zaplog-wordpress-plugin/includes</code> is where functionality shared between the dashboard and the public-facing parts of the side reside</li>
+<li>
+<code>zaplog-wordpress-plugin/admin</code> is for all dashboard-specific functionality</li>
+<li>
+<code>zaplog-wordpress-plugin/public</code> is for all public-facing functionality</li>
+</ul>
+
+<h3>
+<a id="assets" class="anchor" href="#assets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Assets</h3>
+
+<p>The <code>assets</code> directory contains three files.</p>
+
+<ol>
+<li>
+<code>banner-772x250.png</code> is used to represent the plugin’s header image.</li>
+<li>
+<code>icon-256x256.png</code> is a used to represent the plugin’s icon image (which is new as of WordPress 4.0).</li>
+<li>
+<code>screenshot-1.png</code> is used to represent a single screenshot of the plugin that corresponds to the “Screenshots” heading in your plugin <code>README.txt</code>.</li>
+</ol>
+
+<p>The directory structure contains three directories:</p>
+
+<ol>
+<li><code>assets</code></li>
+<li><code>trunk</code></li>
+</ol>
+
+<p>When committing code to the repository, all of the banner, icon, and screenshot should be placed in the <code>assets</code> directory of the repository, and the core code should be placed in the <code>trunk</code> directory.</p>
+
+<h3>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h3>
+
+<p>The plugin is licensed under the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/blob/master/zaplog/trunk/LICENSE.txt">GPL v2 or later</a>.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<h3>
+<a id="on-linux-or-os-x" class="anchor" href="#on-linux-or-os-x" aria-hidden="true"><span class="octicon octicon-link"></span></a>On Linux or OS X</h3>
+
+<ol>
+<li>Copy the <code>zaplog-wordpress-plugin</code> directory into your <code>wp-content/plugins</code> directory.</li>
+<li>Create a symbolic link between the <code>trunk</code> directory and the plugin. For example: <code>ln -s zaplog-wordpress-plugin/trunk /path/to/wordpress/wp-content/plugins/zaplog-wordpress-plugin</code>
+</li>
+<li>In the WordPress dashboard, navigation to the <em>Plugins</em> page
+Locate the menu item that reads “The Zaplog Collective Journalism plugin”</li>
+<li>Click on <em>Activate.</em>
+</li>
+</ol>
+
+<h3>
+<a id="on-windows" class="anchor" href="#on-windows" aria-hidden="true"><span class="octicon octicon-link"></span></a>On Windows</h3>
+
+<ol>
+<li>Copy the <code>zaplog-wordpress-plugin</code> directory into your <code>wp-content/plugins</code> directory.</li>
+<li>Create a symbolic link between the <code>trunk</code> directory and the plugin. For example: <code>mklink /J path\to\wp-content\plugins \path\to\plugin\trunk\zaplog-wordpress-plugin</code>
+</li>
+<li>In the WordPress dashboard, navigation to the <em>Plugins</em> page
+Locate the menu item that reads “The Zaplog Collective Journalism plugin”</li>
+<li>Click on <em>Activate.</em>
+</li>
+</ol>
+
+<p>See <a href="https://tommcfarlin.com/wordpress-plugin-boilerplate/">https://tommcfarlin.com/wordpress-plugin-boilerplate/</a> for more options. </p>
+
+<h2>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h2>
+
+<p>Based on the WordPress Plugin Boilerplate <a href="https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate">https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate</a>.</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/patricksavalle/zaplog-wordpress-plugin"></a> is maintained by <a href="https://github.com/patricksavalle">patricksavalle</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
