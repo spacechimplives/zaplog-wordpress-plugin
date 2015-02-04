@@ -29,15 +29,14 @@
       <div class="inner clearfix">
         <section id="main-content">
           <h1>
-<a id="zaplog-open-source-journalism" class="anchor" href="#zaplog-open-source-journalism" aria-hidden="true"><span class="octicon octicon-link"></span></a>Zaplog Open Source Journalism</h1>
-
-<h2>
-<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Zappies unite!</h2>
+<a id="zaplog-open-source-journalism" class="anchor" href="#zaplog-open-source-journalism" aria-hidden="true"><span class="octicon octicon-link"></span></a>Zappies unit!</h1>
 
 <blockquote>
-<p>Het is duidelijk dat we ons mainstream nieuws niet meer kunnen vertrouwen. Het is te eenzijdig en subjectief, het heeft vaak meer weg van spin en propaganda dan van een objectieve informatie.</p>
+<p>Verslaggeving rondom MH17, Oekraine, Charlie Hebdo etc. maken duidelijk dat we ons mainstream nieuws niet meer kunnen vertrouwen. Het is te eenzijdig en subjectief, het heeft vaak meer weg van spin en propaganda dan van nieuws.</p>
 
 <p>Het Zaplog heeft bewezen dat we het met z'n allen net zo goed zelf kunnen doen. De huidige site is oud en krakkemikkig maar trekt toch nog enorm veel bezoekers. Laten we de volgende stap maken.</p>
+
+<p>Help mij met het ontwikkelen door te doneren of door te coden. Al het geld dat jullie doneren, zal direct worden betaald aande ontwikkelaars, naar rato van hun bijdragen.</p>
 
 </blockquote>
 
@@ -72,99 +71,6 @@
 
 <p>Please announce your activities and progress in the comments of the issues.</p>
 
-<h3>
-<a id="re-use" class="anchor" href="#re-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>Re-use</h3>
-
-<p>Where possible use and integrate existing open-source code (check license!), if this is done using GITHUB repos, the original contributors will share in the rewards.</p>
-
-<h3>
-<a id="recommended-tools" class="anchor" href="#recommended-tools" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recommended Tools</h3>
-
-<p>The plugin uses a variable to store the text domain used when internationalizing strings. To take advantage of this method, there are tools that are recommended for providing correct, translatable files:</p>
-
-<ul>
-<li><a href="http://www.poedit.net/">Poedit</a></li>
-<li><a href="http://i18n.svn.wordpress.org/tools/trunk/">makepot</a></li>
-<li><a href="https://github.com/grappler/i18n">i18n</a></li>
-</ul>
-
-<h3>
-<a id="includes" class="anchor" href="#includes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Includes</h3>
-
-<p>Note that if you include your own classes, or third-party libraries, there are three locations in which files may go:</p>
-
-<ul>
-<li>
-<code>zaplog-wordpress-plugin/includes</code> is where functionality shared between the dashboard and the public-facing parts of the side reside</li>
-<li>
-<code>zaplog-wordpress-plugin/admin</code> is for all dashboard-specific functionality</li>
-<li>
-<code>zaplog-wordpress-plugin/public</code> is for all public-facing functionality</li>
-</ul>
-
-<h3>
-<a id="assets" class="anchor" href="#assets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Assets</h3>
-
-<p>The <code>assets</code> directory contains three files.</p>
-
-<ol>
-<li>
-<code>banner-772x250.png</code> is used to represent the plugin’s header image.</li>
-<li>
-<code>icon-256x256.png</code> is a used to represent the plugin’s icon image (which is new as of WordPress 4.0).</li>
-<li>
-<code>screenshot-1.png</code> is used to represent a single screenshot of the plugin that corresponds to the “Screenshots” heading in your plugin <code>README.txt</code>.</li>
-</ol>
-
-<p>The directory structure contains three directories:</p>
-
-<ol>
-<li><code>assets</code></li>
-<li><code>trunk</code></li>
-</ol>
-
-<p>When committing code to the repository, all of the banner, icon, and screenshot should be placed in the <code>assets</code> directory of the repository, and the core code should be placed in the <code>trunk</code> directory.</p>
-
-<h3>
-<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h3>
-
-<p>The plugin is licensed under the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/blob/master/zaplog/trunk/LICENSE.txt">GPL v2 or later</a>.</p>
-
-<h2>
-<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
-
-<h3>
-<a id="on-linux-or-os-x" class="anchor" href="#on-linux-or-os-x" aria-hidden="true"><span class="octicon octicon-link"></span></a>On Linux or OS X</h3>
-
-<ol>
-<li>Copy the <code>zaplog-wordpress-plugin</code> directory into your <code>wp-content/plugins</code> directory.</li>
-<li>Create a symbolic link between the <code>trunk</code> directory and the plugin. For example: <code>ln -s zaplog-wordpress-plugin/trunk /path/to/wordpress/wp-content/plugins/zaplog-wordpress-plugin</code>
-</li>
-<li>In the WordPress dashboard, navigation to the <em>Plugins</em> page
-Locate the menu item that reads “The Zaplog Collective Journalism plugin”</li>
-<li>Click on <em>Activate.</em>
-</li>
-</ol>
-
-<h3>
-<a id="on-windows" class="anchor" href="#on-windows" aria-hidden="true"><span class="octicon octicon-link"></span></a>On Windows</h3>
-
-<ol>
-<li>Copy the <code>zaplog-wordpress-plugin</code> directory into your <code>wp-content/plugins</code> directory.</li>
-<li>Create a symbolic link between the <code>trunk</code> directory and the plugin. For example: <code>mklink /J path\to\wp-content\plugins \path\to\plugin\trunk\zaplog-wordpress-plugin</code>
-</li>
-<li>In the WordPress dashboard, navigation to the <em>Plugins</em> page
-Locate the menu item that reads “The Zaplog Collective Journalism plugin”</li>
-<li>Click on <em>Activate.</em>
-</li>
-</ol>
-
-<p>See <a href="https://tommcfarlin.com/wordpress-plugin-boilerplate/">https://tommcfarlin.com/wordpress-plugin-boilerplate/</a> for more options. </p>
-
-<h2>
-<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h2>
-
-<p>Based on the WordPress Plugin Boilerplate <a href="https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate">https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate</a>.</p>
         </section>
 
         <aside id="sidebar">
