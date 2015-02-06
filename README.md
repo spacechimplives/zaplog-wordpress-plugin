@@ -1,10 +1,10 @@
-#Zaplog Open Source Journalism
+#Zaplog Open Source Journalism plugin for Wordpress
 
 <a href="https://mobbr.com/#/task/aHR0cHM6Ly9naXRodWIuY29tL3BhdHJpY2tzYXZhbGxlL3phcGxvZy13b3JkcHJlc3MtcGx1Z2luL21pbGVzdG9uZXMvTWluaW11bSUyMHZpYWJsZSUyMHByb2R1Y3Q="><img src="https://api.mobbr.com/button/eb342f159522ccde16500ce9abc34391/medium"/></a>
 
 The bitcoin address for funding this project is <b>1ASgxwsQAaJm2aP3rprAq8CuUVcJGWqkah</b>. To pay EUR into this bitcoin address, goto http://bitonic.nl  
 
-Funding and rewarding can be followed by clicking the button.
+Funding and rewarding can be followed by clicking the button. See the campaign page here (Dutch): http://patricksavalle.github.io/zaplog-wordpress-plugin/
 
 ##Overview
 
