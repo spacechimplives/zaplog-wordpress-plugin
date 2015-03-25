@@ -94,3 +94,31 @@ See https://tommcfarlin.com/wordpress-plugin-boilerplate/ for more options.
 ## Credits
 
 Based on the WordPress Plugin Boilerplate https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate.
+
+#Basic functionality and concepts
+
+We will build a ‘standalone’ Wordpress plugin for open-source journalism. It will be user-generated content based and rely on voting / algorithmic ratings for frontpage article selection. A lot of the necessary functionality can be obtained by combining existing Wordpress plugins, but as these differ in quality, level of maintenance etc. we choose to make our plugin the one-stop shop for crowdsourced journalism. Comparable to Buddypress, which is a social networking plugin.
+
+It will be based on a Wordpress MU-installation allowing for sub sites on sub domains.
+
+The plugin will maintain a rating/karma system (like the stackexchange sites) for users and content, based on participation, votes and usage.
+
+The root-site will be a linkdump with an algorithmic frontpage. The frontpage shows a selection of the highest ranking, most recent linkdumps order by popularity (WPEDDIT-like). Its posts are linkdumps (summaries) of external articles. These can be posted by users by entering an URL (upon which the system will retrieve the summary) or by the plugin whenever an article is posted in a sub site. All new linkdumps will appear in chronological order on the ‘staging area’ where registered users can place votes. The staging area is constructed as an activity stream that shows all content-centric activity such as active posts (posts that received new revisions, additional content, votes, comment, etc.), new postings, etc.
+
+Users can start their own sub sites and link them to their own domains.
+
+To enable any user to publish articles without having to open his/her own blog a special sub site is created (e.g. community.zaplog.nl). This is a normal multi-author blog where every registered user can post.  
+
+A special sub site (e.g. rss.zaplog.nl) will be constructed as a social RSS reader to which every user can add URl’s of ‘sites of interest’. The plugin will auto detect the RSS-feeds of such a site every time it loads the site’s new content. Articles of these feeds can be ‘pinned’ by users upon which they will be copied to the main site as a linkdump. Non-pinned articles are automatically removed after a few days. Only the RSS-feeds with the most pinned articles are retained, the others are automatically deactivated after a certain period. To avoid users being able to bookmark of share URL’s of these temporary articles, there will be only an overview page, showing ALL (current) articles in a feed.
+
+Every post will be the start of a content/activity stream that contains comments, votes, links, embedded media, events, pictures etc. All of these items can receive votes. New posts can be placed in this stream too. These new posts can be either revisions of the original posts or new posts, made by any user. These posts can be merged into the original post by the original author or users with enough karma / points. This allows for simple collaboration and / or live blog functionality. All versions are visible in the content stream below the article, like any other content stream item. 
+
+A post has a content-date (the date at which is was posted) and an event-date (the date of the event it relates to). 
+
+A post will have multiple authors, depending on revision history.
+
+A post will have a geolocation.
+
+A post will have a category (e.g. opinion, background, news) and tags.
+
+There will be multiple taxonomies (e.g. region, era, original author)
