@@ -21,8 +21,8 @@ Funding and rewarding can be followed by clicking the button. See the campaign p
 ###Milestones
 
 - The first milestone will be the MVP or <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Minimum%20viable%20product">minimum viable product</a>. 
-- The second milestone will be the revolutionary <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Event%20timelines">event timeline</a> or newsstream.
-- The third milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/RSS%20aggregator">collaborative content aggregator</a>.
+- The second milestone will be the revolutionary <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/Content%20streams%20and%20version%20control">event timeline</a> or newsstream.
+- The third milestone will be the <a href="https://github.com/patricksavalle/zaplog-wordpress-plugin/milestones/RSS%20aggregation">collaborative content aggregator</a>.
 
 ##Development and contributions
 
